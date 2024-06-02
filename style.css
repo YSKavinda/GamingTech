@@ -1,0 +1,375 @@
+* {
+    font-family: "Quicksand";
+}
+
+.main-background {
+    background-image: url("resources/background-body.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.logo {
+    height: 100px;
+    background-image: url("resources/logo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+@font-face {
+    font-family: "Quicksand";
+    src: url("fonts/Quicksand-Regular.ttf");
+}
+
+@font-face {
+    font-family: "u";
+    src: url("fonts/Ubuntu-L.ttf");
+}
+
+.title1 {
+    font-family: "u";
+    font-size: 40px;
+    letter-spacing: 3px;
+}
+
+.background {
+    background-image: url("resources/joystick_icon.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.title2 {
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(54, 145, 35);
+}
+
+.label1 {
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.label2 {
+    cursor: pointer;
+}
+
+.carticon {
+    height: 40px;
+    background-image: url("resources/cartico.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.hrbreak1 {
+    border-style: solid;
+    border-color: rgb(139, 139, 139);
+    border-width: 3px;
+}
+
+.logoimg {
+    height: 80px;
+    background-image: url("resources/logo.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.searchbtn {
+    height: 45px;
+}
+
+.adserch {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.posterimg1 {
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.postercaption1 {
+    margin-bottom: 220px;
+}
+
+.postercaption2 {
+    margin-bottom: 100px;
+}
+
+.postercaption3 {
+    margin-bottom: 100px;
+    margin-right: 220px;
+}
+
+.poster-title {
+    font-size: 55px;
+    color: rgb(124, 125, 126);
+}
+
+.poster-text {
+    font-size: 24px;
+    color: rgb(124, 125, 126);
+}
+
+.link2 {
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.link2:hover {
+    text-decoration: underline;
+}
+
+.link3 {
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.link3:hover {
+    text-decoration: underline;
+}
+
+@media(max-width:699px) {
+    .cardToping {}
+    .cardwidth {
+        width: 100%;
+    }
+}
+
+@media(min-width:700px) {
+    .cardToping {}
+    .cardwidth {
+        width: 17rem;
+    }
+}
+
+.lbl1 {
+    font-size: 24;
+    font-weight: bold;
+}
+
+.pm1 {
+    background-image: url("american_express_img.png");
+    height: 60px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.pm2 {
+    background-image: url("visa_img.png");
+    height: 60px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.pm3 {
+    height: 60px;
+    background-image: url("paypal_img.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.pm4 {
+    height: 60px;
+    background-image: url("mastercard_img.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.productimgadd {
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: 2px solid blue;
+    border-radius: 8px;
+}
+
+.side {
+    float: left;
+    width: 15%;
+}
+
+.bar5 {
+    height: 25px;
+}
+
+.pagination {
+    display: inline-block;
+}
+
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.pagination a.active {
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+}
+
+.pagination a:hover:not(.active) {
+    background-color: #ddd;
+    border-radius: 5px;
+}
+
+.singleproduct {
+    padding-top: 65px;
+    padding-bottom: 145px;
+    background-color: #e5e5e5;
+    padding: 20px;
+}
+
+.product_qty {
+    width: 200px;
+    height: 70px;
+    padding-left: 8px;
+    padding-bottom: 15px;
+    margin-right: 22px;
+    margin-bottom: 11px;
+}
+
+.qty-buttons {
+    height: 100%;
+    width: 30px;
+    border: solid 1px #e5e5e5;
+    top: 0;
+    right: 0;
+}
+
+.qty-inc,
+.qty-dec {
+    width: 100%;
+    height: 50%;
+    cursor: pointer;
+}
+
+.qty-inc {
+    padding-bottom: 2px;
+    justify-content: flex-end;
+    border-top-right-radius: 5px;
+}
+
+.qty-dec {
+    padding-bottom: 2px;
+    justify-content: flex-end;
+    border-top-right-radius: 5px;
+}
+
+.emptyview {
+    height: 400px;
+    background-image: url("resources/watchlistheart.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+
+/* Empty Cart */
+
+.emptycart {
+    height: 400px;
+    background-image: url("resources/cartpic.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.cartqtytxt {
+    width: 20%;
+    height: 40px;
+    outline: none;
+}
+
+.invoiceheaderimg {
+    height: 80px;
+    background-image: url("resources/logo.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: contain;
+}
+
+.messagebox {
+    height: auto;
+    overflow-y: scroll;
+}
+
+.firstplace {
+    background-image: url("resources/firstplace.svg");
+    height: 90px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.chatbox {
+    height: 470px;
+    overflow-y: scroll;
+}
+
+.homeppview {
+    height: 80px;
+    background-color: rgb(112, 211, 0);
+}
+
+.logohead {
+    height: 110px;
+    padding: auto;
+    box-shadow: 0px 0px 10px 3px black;
+}
+
+.headimg {
+    background-image: url("resources/Wave\ Line.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 0px 0px 10px 3px black;
+}
+
+.ddcolor {
+    background-color: rgb(32, 158, 110);
+}
+
+.ddcl:hover {
+    background-color: rgb(19, 80, 56);
+}
+
+.swal-button {
+    text-align: center;
+    border-radius: 2px;
+    background-color: #030611;
+    font-size: 12px;
+    border: 1px solid #000000;
+    text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.384);
+}
+
+.swal-text {
+    padding: 17px;
+    display: block;
+    margin: 22px;
+    text-align: center;
+    color: #0a0000;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.swal-modal {
+    background-color: rgb(6, 255, 131);
+    border: 3px solid rgb(6, 255, 131);
+}
+
+.filcanvas {
+    height: 100%;
+    width: 0px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    box-shadow: 0px 0px 10px 2px black;
+    z-index: 100;
+    overflow: hidden;
+    overflow-y: auto;
+}
